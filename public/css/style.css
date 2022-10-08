@@ -1,0 +1,51 @@
+/* ------------------------------------------------------------------
+
+ * File         : style.css
+ * Author       : Afroza Prova
+ * Author URI   : afroza2prova@gmail.com
+ * All Rights Reserved.
+ * --------------------------------------------------------------------- */
+/*  Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700|Arimo:400,700');
+/*
+  - General
+  - Bootstrap Custom
+  - Alerts
+  - Alerts
+  - Helper Classes
+  - Waves Effect
+  - Animation
+*/
+/* ==============
+  General
+===================*/
+body {
+  background: #ededed;
+  font-family: 'Arimo', sans-serif;
+  margin: 0;
+  font-size: 14px;
+}
+ /* #calendar {
+    max-width: 900px !important;
+    overflow:hidden scroll;
+  } */
+html {
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100%;
+  background: #ededed;
+}
+.nav-tabs {
+     --bs-nav-tabs-border-width: none;
+}
+.btn-sm{   
+     background: #333;
+    border: none;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 8px 32px;
+}
+.bg{
+    background: #0b1f5d;
+    padding: 15px;
+}
