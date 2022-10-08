@@ -95,9 +95,11 @@
                                         <div class="col-md-8">
                                         <select name="category_id" class="form-select">
                                         <option value=""> Choose Category </option>
+                                        @if($category)
                                         @foreach ($category as $cat)
                                                 <option value="{{$cat->id}}"> {{$cat->name}} </option>
                                                 @endforeach
+                                                @endif
                                             </select>                              
                                         </div>
                                         <div class="col-md-4">
